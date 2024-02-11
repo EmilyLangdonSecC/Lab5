@@ -8,6 +8,6 @@ I used variables for aesthetic properties like fonts, colours, etc. This would m
 
 I used the clamp property to implement fluid typography. This will ensure that the text size responds well to changes in screen size.
 
-I created a grid with cards to display featured artist. Each card contains an image of its respective artist and a p element for their name. The cards' shadow changes when hovering over them, making them more interactive.
+I created a grid with cards to display featured artists. Each card contains an image of its respective artist and a p element for their name. The cards' shadows change when hovering over them, making them more interactive.
 
 I used the section element to divide the website into relevent sections wherever other elements could not be used (ie header, nav, etc).
