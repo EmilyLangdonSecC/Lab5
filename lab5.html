@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="lab5style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <title>Music Site</title>
+</head>
+
+<body>
+    <header>
+        <!--The nav bar will be present on desktop, but the dropdown menu will be present on mobile.-->
+        <h1 class="header-title">Music Site</h1>
+        <nav>
+            <button type="button" onclick="alert('You thought these were real links?')">Home</button>
+            <button type="button" onclick="alert('You thought these were real links?')">Genres</button>
+            <button type="button" onclick="alert('You thought these were real links?')">Artists</button>
+            <button type="button" onclick="alert('You thought these were real links?')">Artists</button>
+            <button type="button" onclick="alert('You thought these were real links?')">Events</button>
+        </nav>
+        <div class="dropdown">
+            <button class="dropbtn">
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </button>
+            <div class="dropdown-content">
+                <button type="button" onclick="alert('You thought these were real links?')">Home</button>
+                <button type="button" onclick="alert('You thought these were real links?')">Genres</button>
+                <button type="button" onclick="alert('You thought these were real links?')">Artists</button>
+                <button type="button" onclick="alert('You thought these were real links?')">Artists</button>
+                <button type="button" onclick="alert('You thought these were real links?')">Events</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1 class="title">Welcome to the Music Site</h1>
+        <section>
+            <!--The cards will change their shadow colour when hovered over. The number of cards on screen will change depending on the size of the screen.-->
+            <h2 class="title">Featured Artists</h2>
+            <div class="grid">
+                <div class="card">
+                    <img class="grid-image" src="ghost-band.jpg" alt="the band Ghost">
+                    <p>Ghost</p>
+                </div>
+                <div class="card">
+                    <img class="grid-image" src="battle-beast.jpg" alt="the band Battle Beast">
+                    <p>Battle Beast</p>
+                </div>
+                <div class="card">
+                    <img class="grid-image" src="SHINee.jpg" alt="the group SHINee">
+                    <p>SHINee</p>
+                </div>
+                <div class="card">
+                    <img class="grid-image" src="blind-guardian.jpg" alt="the group Blind Guardian">
+                    <p>Blind Guardian</p>
+                </div>
+                <div class="card">
+                    <img class="grid-image" src="billy-joel.jpg" alt="Billy Joel sitting at a piano">
+                    <p>Billy Joel</p>
+                </div>
+                <div class="card">
+                    <img class="grid-image" src="judas-priest.jpg" alt="the band Judas Priest">
+                    <p>Judas Priest</p>
+                </div>
+                <div class="card">
+                    <img class="grid-image" src="queen.jpg" alt="the band Queen">
+                    <p>Queen</p>
+                </div>
+                <div class="card">
+                    <img class="grid-image" src="emperor.jpeg" alt="the band Emperor">
+                    <p>Emperor</p>
+                </div>
+                <div class="card">
+                    <img class="grid-image" src="kamelot.jpg" alt="the band Kamelot">
+                    <p>Kamelot</p>
+                </div>
+                <div class="card">
+                    <img class="grid-image" src="metallica.jpg" alt="the band Metallica">
+                    <p>Metallica</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 class="title">Great Tracks</h2>
+            <div class="audio-element">
+                <audio class="audio" controls>
+                    <source src="Ghost - Cirice.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p>Ghost - <i>Cirice</i></p>
+            </div>
+            <div class="audio-element">
+                <audio class="audio" controls>
+                    <source src="The Curse of Feanor (Remastered 2007).mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p>Blind Guardian - <i>The Curse of Feanor</i></p>
+            </div>
+            <div class="audio-element">
+                <audio class="audio" controls>
+                    <source src="Circus of Doom.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p>Battle Beast - <i>Circus of Doom</i></p>
+            </div>
+        </section>
+        <section>
+            <h2 class="title">Live Performances</h2>
+            <div class="flex-live-performances">
+                <iframe class="live-performance" width="866" height="487"
+                    src="https://www.youtube.com/embed/NmxFxBiCrL4" title="Ghost - Mary On A Cross (Live In Tampa 2022)"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <iframe class="live-performance" width="649" height="487"
+                    src="https://www.youtube.com/embed/ZdnNV95S5Us" title="Billy Joel Vienna (Live 1986)"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <iframe class="live-performance" width="866" height="487"
+                    src="https://www.youtube.com/embed/PrEm8jMC5Q8" title="Blind Guardian - Nightfall Live"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <iframe class="live-performance" width="631" height="487"
+                    src="https://www.youtube.com/embed/o-0ygW-B_gI" title="Queen - Radio Ga Ga (Live Aid 1985)"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Music Site. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
