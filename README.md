@@ -2,7 +2,7 @@
 
 I started this website by creating a header. I made sure it was responsive and adaptable to different screen sizes by making the nav bar display as a dropdown menu on small screens. I also made the header sticky so it's always at the top of the screen.
 
-Whenever I added something to the website, I coded it to work on mobile and then used media queries to make it work on desktop.
+Whenever I added something to the website, I coded it to work on mobile and then used media queries to make it work on desktop. This is called mobile first design.
 
 I used variables for aesthetic properties like fonts, colours, etc. This would make it easy for me to change any of these in the future. I also used custom Google fonts.
 
