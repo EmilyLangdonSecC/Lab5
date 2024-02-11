@@ -1,6 +1,6 @@
 # Lab5
 
-I started this website by creating a header. I made sure it was responsive and adaptable to different screen sizes by making the nav bar into a dropdown menu on small screens. I also made the header sticky so it's always at the top of the screen.
+I started this website by creating a header. I made sure it was responsive and adaptable to different screen sizes by making the nav bar display as a dropdown menu on small screens. I also made the header sticky so it's always at the top of the screen.
 
 Whenever I added something to the website, I coded it to work on mobile and then used media queries to make it work on desktop.
 
